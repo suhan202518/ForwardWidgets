@@ -13,12 +13,12 @@
  *
  */
 WidgetMetadata = {
-  id: "forward.auto.danmu_api",
-  title: "danmu_api弹幕",
+  id: "forward.auto.danmusu",
+  title: "danmusu弹幕",
   version: "1.0.3",
   requiredVersion: "0.0.2",
-  description: "从danmu_api获取弹幕【五折码：CHEAP.5;七折码：CHEAP】",
-  author: "huangxd",
+  description: "从danmusu获取弹幕",
+  author: "danmusu",
   site: "https://github.com/huangxd-/ForwardWidgets",
   globalParams: [
     {
@@ -27,7 +27,7 @@ WidgetMetadata = {
       type: "input",
       placeholders: [
         {
-          title: "示例danmu_api",
+          title: "danmusu",
           value: "https://{domain}/{token}",
         },
       ],
